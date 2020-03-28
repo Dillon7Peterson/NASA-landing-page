@@ -1,10 +1,46 @@
 body{
-    background-color: royalblue;
+
       
-}
-
 
 }
-   
+main{
+    border: 1px solid red;
+    height: 774px;
+    width: 850px;
 
+}
+section1{
+    background-image: url("./Universe.jpg");
+    display: flex;
+    border: 10px solid blue;
+    height: 450px;
+    width: 845px;
+    justify-content: center;
+    align-items: center;
+    
+}
+section2{
+    display: flex;
+    border: 10px solid;
+    height: 324px;
+    width: 850px;
+    justify-content: space-evenly;
+    align-items: column;
+}
+div1{
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+div2{
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+
+}
+div3{
+    display: flex;
+    font-size: medium;
 }
